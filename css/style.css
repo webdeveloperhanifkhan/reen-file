@@ -1,0 +1,374 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+   font-family: 'Source Sans Pro', sans-serif;
+}
+
+.header-section{
+	width: 100%;
+}
+.container{
+	width: 1140px;
+	margin: auto;
+}
+.header-section .top-header{
+	width: 100%;
+	background:#f5f7fa;
+	padding: 20px 0px;
+}
+.header-section .top-header .container{
+	width: 1140px;
+	height: auto;
+	display: flex;
+	justify-content: space-between;
+
+}
+a, a:hover{
+	text-decoration: none;
+}
+.contact ul{
+	margin: 0;
+	padding: 0;
+}
+.contact ul li{
+
+	display: inline-block;
+	list-style-type: none;
+	margin-right: 10px;
+}
+.social-icons ul{
+	margin: 0;
+	padding: 0;
+
+}
+.social-icons ul li{
+	display: inline-block;
+	list-style-type: none;
+	margin-left: 10px;	
+}
+.social-icons ul li:hover{
+	 color: #00bc9c;
+   transition: 0.5s;
+}
+.main-header{
+	width: 100%;
+	background: #fff;
+	padding: 30px 0px;
+
+
+}
+.main-header .container{
+	display: flex;
+	align-items: center;
+
+}
+.main-header .logo img{
+	width: 150px;
+	height: auto;
+
+}
+.main-header .logo{
+	flex-basis: 20%;
+	vertical-align: middle;
+}
+.main-header .nav ul{
+	margin: 0;
+	padding: 0;
+	
+}
+.main-header .nav{
+	flex-basis: 70%;
+}
+.main-header .nav ul li{
+    display: inline-block;
+	list-style-type: none;
+	margin-left: 10px;
+	font-size: 14px;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin: 0px 15px;
+
+}
+.main-header .nav ul li a{
+   color: #506a85;
+   transition: 0.5s;
+}
+.main-header .nav ul li a:hover{
+   color: #00bc9c;
+   transition: 0.5s;
+}
+.main-header .search{
+	flex-basis: 10%;
+
+}
+.main-header .search i{
+	float: right;
+	transition: 0.5s;
+}
+.banner-section{
+	width: 100%;
+	background: URL(../IMG/b3.png);
+	height: 100vh;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+
+.ovelay{
+	background:#00000082
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	z-index: 0;
+}
+.banner-section .title{
+	position: absolute;
+	text-align: center;
+	padding: 0px 230px;
+	z-index: 1;
+	top: 30%;
+
+	
+}
+
+.banner-section .title h1{
+	font-size: 50px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+
+}
+.banner-section .title p{
+	width: 69%;
+    font-size: 16px;
+    line-height: 26px;
+    color: #a3b1bf;
+    margin: 0px auto 60px;
+    margin-top: 10px;
+}
+.banner-section .title a{
+	background-color: #00bc9c;
+    padding: 10px 30px;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    border-radius: 3px;
+    border: 1px solid #00bc9c;
+    color: white;
+    transition: 0.5s;
+
+}
+.banner-section .title a:hover{
+	background: no-repeat;
+	color: #00bc9c;
+	transition: 0.5s;
+}
+.response-section{
+	width: 100%;
+	margin-top: 80px;
+}
+.response-section .response .title h2{
+	 font-size: 35px;
+    font-weight: 600;
+    color: #506a85;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.response-section .response .title p{
+	 width: 52%;
+    margin: 0px auto;
+    font-size: 16px;
+    line-height: 26px;
+    color: #73879c;
+    text-align: center;
+}
+.r-box{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 50px;
+}
+
+.r-box .box1 img{
+		margin-bottom: 40px;		
+}
+.r-box .box1 span{
+	font-size: 20px;
+    font-weight: 600;
+    color: #506a85;
+    margin-bottom: 15px;
+    	display: flex;
+	align-items: center;
+}
+.r-box .box1 p{
+	font-size: 14px;
+    line-height: 24px;
+    color: #73879c;
+	  margin-top: 20px;
+	
+}
+.check-section{
+	width: 100%;
+	background-color: #f2f5f7;
+	padding: 50px 20px;
+	margin-top: 50px;
+}
+.check-section .text h4{
+	font-size: 35px;
+    font-weight: 600;
+    color: #506a85;
+    margin-bottom: 20px;
+    text-align: center;
+
+
+}
+.check-section .text p{
+	font-size: 16px;
+    line-height: 26px;
+    color: #73879c;
+    text-align: center;
+	
+}
+.check-section .pic{
+	display: flex;
+	width: 100%;
+	height: auto;
+	margin-top: 60px;
+}
+.check-section .pic img{
+	margin-right: 30px;
+}
+.section-middle{
+	width: 100%;
+	height: 50vh;
+	display: inline-block;
+}
+.section-middle .kind h2{
+		font-size: 35px;
+    font-weight: 600;
+    color: #506a85;
+    margin-top: 80px;
+    text-align: center;
+
+
+}
+.section-middle .kind p{
+	font-size: 16px;
+    line-height: 26px;
+    color: #73879c;
+    text-align: center;
+    margin-top: 30px;
+	
+}
+.section-middle .kind .m-btn{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 40px;
+
+}
+.section-middle .kind .m-btn a{
+		background-color: #00bc9c;
+    padding: 10px 30px;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    border-radius: 3px;
+    border: 1px solid #00bc9c;
+    color: white;
+    transition: 0.5s;	
+}
+.section-middle .kind .m-btn a:hover{
+	background: no-repeat;
+	color: #00bc9c;
+	transition: 0.5s;
+}
+.footer-section{
+	width: 100%;
+	background: #2f4052;
+}
+.footer-section .top-footer{
+	width: 100%;
+	display: flex;
+	padding: 80px 0px;
+	justify-content: space-between;
+}
+.top-footer h3{
+	font-size: 18px;
+	font-weight: 700;
+	letter-spacing: 2px;
+	margin-bottom: 20px;
+	color: #fff;
+}
+
+.top-footer .who p{
+	font-size: 14px;
+	line-height: 24px;
+	color: #a3b1bf;
+	margin-top: 20px;
+}
+.works .photos{
+	margin-top: 4px;
+}
+.works .picture .pic1{
+	margin-left: 6px;
+}
+.works .photos .pic2{
+	margin-left: 6px;
+}
+.touch p{
+	font-size: 14px;
+	line-height: 24px;
+	color: #a3b1bf;
+	margin-top: 20px;
+}
+
+.address ul li{
+	list-style-type: none;
+	font-size: 14px;
+	color: #a3b1bf;
+	margin-top: 15px;
+}
+.address ul li i{
+	margin-right: 10px;
+}
+.updates p{
+	font-size: 14px;
+	line-height: 24px;
+	color: #a3b1bf;
+	margin-top: 20px;
+}
+.bottom-section{
+	width: 100%;
+	background: #283645;
+	padding: 30px 0px;
+}
+.bottom-section .bottom-footer{
+	display: flex;
+}
+.bottom-footer .pose{
+	flex-basis: 50%;
+	color: #616f7d;
+	font-size: 14px;
+
+}
+.bottom-footer .menu ul li{
+	flex-basis: 50%;
+	display: inline-block;
+	margin-right: 10px;
+	font-size: 14px;
+	color: #616f7d;
+}
+.bottom-footer .menu ul li i{
+	font-size: 5px;
+	vertical-align: middle;	
+	margin-left: 10px;
+	color: #616f7d;
+}
+
+	
